@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ilusionismo</title>
+    <link rel="StyleSheet" href="/formulario.html">  
+</head>
+<body>
+    <header>
+        <h1 class="tituloPagina">Formulario</h1>
+    </header>
+
+    <main>
+        <div>
+        <form action="#" target="" method="get" name="formDatosPersonales">
+            
+            <h1>Datos personales</h1><br>
+
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="date">Año de nacimiento</label><br>
+            <input type="date" id="lname" name="lname"><br><br>
+
+            <label for="fname">Correo electrónico:</label><br>
+            <input type="email" id="lname" name="lname"><br><br>
+
+            <label for="fname">Contraseña:</label><br>
+            <input type="password" id="lname" name="lname" required><br><br>
+            
+            <label for="fname">Hora:</label>
+            <input type="time" name="hora"><br><br>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea><br><br>
+            
+            <label for="fname">Sexo:</label><br>
+            <input type="radio" id="Sexo" name="fav_language" value="Sexo">
+            <label for="masculino">Maculino</label><br>
+            
+            <input type="radio" id="Sexo" name="fav_language" value="Sexo">
+            <label for="femenino">Femenino</label><br>
+
+            <input type="radio" id="Sexo" name="fav_language" value="Sexo">
+            <label for="otro">Otro</label><br><br>
+           
+            <label for="fname">Tipo de contacto:</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="telefono">Teléfono</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="correo">Correo electrónico</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="mensaje">Mensaje</label><br><br>
+
+                <label for="vehicle3">Elige un color:</label>
+                <input type="color" name="colorElegido" value="#ff0000"><br><br>
+
+                <label for="fname">Elige tu curso:</label>
+                <select name="menu">
+                    <option selected>...</option>
+                    <optgroup label="1º.Año">
+                      <option value="1">seguridad informatica</option>
+                      <option value="2">ofimatica</option>
+                      
+                    </optgroup>
+                    <optgroup label="2º.Año">
+                      <option value="4">servicios en red</option>
+                      <option value="5">empresa</option>
+                    </optgroup>
+                  </select><br><br>
+                
+                <label for="fname"> Indique su nivel (Principiante, Inetermedio, Avanzado, Profesional):</label><br>
+                <input type="range" name="rango"
+                  min="1" max="4" list="lista-rango">
+                <datalist id="lista-rango">
+                    <option value="1" label="Principiante">
+                    <option value="2" label="Inetermedio">
+                    <option value="3" label="Avanzado">
+                    <option value="4" label="Profesional">
+                </datalist><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+
+        </form>
+        </div>
+    </main>
+
+</body>
+</html>
